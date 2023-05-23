@@ -1,0 +1,22 @@
+{
+    "manifest_version": 2,
+    "name": "Project Scripts",
+    "description": "Automatizador de tarefas no JIRA",
+    "version": "0.1",
+    "content_scripts": [
+        {
+            "matches": ["<all_urls>"],
+            "js": [
+            "1. content.js",
+            "2. jquery.js", 
+            "3. destacarTelefone.js", 
+            "4. direcionarACD.js", 
+            "5. direcionarMRO.js",
+            "6. inserirEmail.js",
+            "7. direcionarGRU.js",
+            "8. preencherFCI.js",
+            "9. refresh.js",
+            "10. destacarCargas.js"]
+        }
+    ]
+}
